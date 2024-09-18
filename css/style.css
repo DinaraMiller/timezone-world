@@ -1,9 +1,62 @@
 body {
-  background: rgb(198, 198, 182);
+  background: beige;
+  font-family: sans-serif;
 }
 h1 {
   text-align: center;
+  font-size: 35px;
 }
+
+h2 {
+  font-size: 25px;
+  margin: 0 0 5px;
+}
+
+.container {
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  display: block;
+  margin: 50px auto;
+  padding: 10px 30px 10px 30px;
+  width: 600px;
+}
+
+#world-time-tracker {
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+#city {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 20px 0;
+}
+#city:last-child {
+  border-bottom: none;
+}
+
+#date {
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+#time {
+  font-size: 45px;
+  font-weight: bold;
+}
+#time small {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
 footer {
+  margin-top: 15px;
   text-align: center;
+  color: rgba(0, 0, 0, 0.7);
 }
