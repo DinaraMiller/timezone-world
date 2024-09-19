@@ -30,27 +30,27 @@ h2 {
   width: 100%;
 }
 
-#city {
+.city {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
   padding: 20px 0;
 }
-#city:last-child {
+.city:last-child {
   border-bottom: none;
 }
 
-#date {
+.date {
   opacity: 0.7;
   font-size: 15px;
 }
 
-#time {
+.time {
   font-size: 45px;
   font-weight: bold;
 }
-#time small {
+.time small {
   font-size: 20px;
   vertical-align: middle;
 }
