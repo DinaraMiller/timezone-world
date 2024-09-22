@@ -19,6 +19,7 @@ a {
 
 .container {
   background: #ece2e1;
+
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   display: block;
@@ -29,6 +30,7 @@ a {
 
 #city {
   background: #ece2e1;
+  border-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 15px;
