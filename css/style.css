@@ -1,6 +1,7 @@
 body {
-  background: beige;
+  background: #e5cccc;
   font-family: sans-serif;
+  color: #323232;
 }
 h1 {
   text-align: center;
@@ -11,9 +12,12 @@ h2 {
   font-size: 25px;
   margin: 0 0 5px;
 }
+a {
+  color: #68a8a8;
+}
 
 .container {
-  background: white;
+  background: #ece2e1;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   display: block;
@@ -23,6 +27,7 @@ h2 {
 }
 
 #city {
+  background: #ece2e1;
   border-radius: 4px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 15px;
